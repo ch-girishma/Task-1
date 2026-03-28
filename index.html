@@ -6,35 +6,56 @@
     <title>Document</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html>
-<head>
-<title>Register</title>
-</head>
+    <form action="./login2.html">
+    <input type="text"
+    placeholder="Enter name" 
+    name="name"/><br/>
+    <input type="email"
+    placeholder="Enter email" 
+    name="email"/><br/>
+    <input 
+    type="password" 
+    placeholder="Enter password" 
+    name="password"/><br/>
+    <input type="password"
+    placeholder="Confirm password"
+    name="Confirm password"/><br/>
+    <input type="Mobile number"
+    placeholder="Enter Mobile number"
+    name="Mobile number">
+    <div>
+        <input type="radio" id="gmale" value="male" name="gender"/>
+        <label for ="gmale">Male</label>
+        <input type="radio" id="gfemale" value="female" name="gender"/>
+        <label for="gfemale">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" value="10th"/>10th
+        <input type="checkbox" value="Inter"/>Inter
+        <input type="checkbox" value="Biploma"/>Diploma
+        <input type="checkbox" value="Btech"/>Btech
+    </div>
+    <div>
+        <select>
+            <option value="">Select your city</option>
+            <option value="Vijayawada">Vijayawada</option>
+            <option value="Hyderbad">Hyderabad</option>
+            <option value="vizag">vizag</option>
+        </select>
+    </div>
+    <div>
+        <textarea placeholder="Enter address"></textarea>
+    </div>
+    <div>
+        <label for="">Date of birth</label>
+        <input type="date"/>
+    </div>
 
-<body>
-
-<h2>Register Page</h2>
-
-<form action="login.html">
-
-<label>Name:</label>
-<input type="text" required>
-<br><br>
-
-<label>Email:</label>
-<input type="email" required>
-<br><br>
-
-<label>Password:</label>
-<input type="password" required>
-<br><br>
-
-<label>Confirm Password:</label>
-<input type="password" required>
-<br><br>
-
-<button type="submit">Register</button>
-
-</form>
+         <div>
+            <label for="">Profile pic</label>
+            <input type="file"/>
+            
+         </div>
+         <a target="_blank" href="./login2.html"><button>Register</button></a>
 </body>
+</html>
